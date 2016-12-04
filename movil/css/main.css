@@ -153,13 +153,130 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body, html {
+   height: 100%;
+   width: 100%;
+}
+.pane {
+   position: relative;
+   width: 100%;
+   min-width: 320px;
+   height: 100%;
+   padding: 0px;
+   margin: 0px auto;
+}
+.logo {
+   position: absolute;
+   opacity: 0;
+   top: 50%;
+   left: 50%;
+   transition: all .5s ease-in-out;
+   width: 100px;
+   margin-left: -50px;
+   margin-top: -80px;
+   z-index: 2;
+}
+.logo img {
+   width: 100%;
+   height: auto;
+}
+.mostrarLogo {
+   opacity: 1;
+}
+.moverLogo, .logoFinal {
+   width: 50px;
+   top: 20px;
+   left: 20px;
+   margin-left: 0px;
+   margin-top: 0px;
+   opacity: 1;
+}
+.fondo {
+   position: absolute;
+   opacity: 0;
+   transition: all 1s ease-in-out;
+   background-image: url('../img/fondoBlur.jpg');
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+}
+.mostrarFondo, .fondoFinal{
+   opacity: 1;
+}
 
+.logoEnap {
+   position: absolute;
+   z-index: 3;
+   top: 30px;
+   right: 10px;
+   width: 180px;
+   opacity: 0;
+   transition: all .7s ease-in-out;
+}
 
+.mostrarEnap, .enapFinal{
+   opacity: 1;
+}
 
+.logoEnap img {
+   width: 100%;
+   height: auto;
+}
+.prepararViajeContainer {
+   display: flex;
+   position: absolute;
+   z-index: 4;
+   bottom: -100%;
+   width: 100%;
+   height: 400px;
+}
+.prepararViaje {
+   background-color: rgba(255,255,255,.8);
+   width: 94%;
+   height: 100%;
+   padding: 7px;
+}
 
+.espaciador {
+   width: 3%;
+   height: 100%;
+}
 
+.mostrarPrepararViaje, .prepararViajeFinal {
+   bottom: -10px;
+   transition: all .4s ease-in-out;
+}
 
+.clima {
+   display: flex;
+   width: 100%;
+   padding-top: 20px;
+}
 
+.icono-clima {
+   font-size: 5em;
+   width: 40%;
+   padding-top: 10px;
+   padding-left: 5px;
+}
+.texto-clima {
+   width: 60%;
+   padding-left: 10px;
+}
+
+.temperatura, .descripcion {
+   display: block;
+}
+.temperatura {
+   font-size: 1.2em;
+   font-weight: bold;
+}
+.descripcion {
+   font-weight: lighter;
+   text-transform: capitalize;
+}
 
 
 
