@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="login\login.aspx" />
     <Content Include="salir.aspx" />
     <Content Include="vistas\estaciones\editar.aspx" />
     <Content Include="vistas\estaciones\listar.aspx" />
@@ -136,6 +137,14 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login\autentificacion.cs" />
+    <Compile Include="login\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="salir.aspx.cs">
       <DependentUpon>salir.aspx</DependentUpon>
