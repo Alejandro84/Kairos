@@ -77,6 +77,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="salir.aspx" />
+    <Content Include="vistas\estaciones\editar.aspx" />
+    <Content Include="vistas\estaciones\listar.aspx" />
+    <Content Include="vistas\estaciones\nueva.aspx" />
+    <Content Include="vistas\indumentarias\editar.aspx" />
+    <Content Include="vistas\indumentarias\listar.aspx" />
+    <Content Include="vistas\indumentarias\nueva.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="Global.asax" />
     <Content Include="assets\css\awesomplete.css" />
     <Content Include="assets\css\bootstrap.min.css" />
@@ -90,27 +99,214 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\llamada.js" />
     <Content Include="assets\js\tether.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="vistas\rutas\editar.aspx" />
+    <Content Include="vistas\rutas\listar.aspx" />
+    <Content Include="vistas\rutas\nueva.aspx" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="vistas\departamentos\editar.aspx" />
+    <Content Include="vistas\departamentos\listar.aspx" />
+    <Content Include="vistas\departamentos\nueva.aspx" />
+    <Content Include="vistas\sectores\editar.aspx" />
+    <Content Include="vistas\sectores\listar.aspx" />
+    <Content Include="vistas\sectores\nueva.aspx" />
+    <Content Include="vistas\usuarios\editar.aspx" />
+    <Content Include="vistas\usuarios\listar.aspx" />
+    <Content Include="vistas\usuarios\nueva.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminTemplate.Master.cs">
+      <DependentUpon>adminTemplate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminTemplate.Master.designer.cs">
+      <DependentUpon>adminTemplate.Master</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="salir.aspx.cs">
+      <DependentUpon>salir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="salir.aspx.designer.cs">
+      <DependentUpon>salir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\estaciones\editar.aspx.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\estaciones\editar.aspx.designer.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\estaciones\listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\estaciones\listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\estaciones\nueva.aspx.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\estaciones\nueva.aspx.designer.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\indumentarias\editar.aspx.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\indumentarias\editar.aspx.designer.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\indumentarias\listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\indumentarias\listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\indumentarias\nueva.aspx.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\indumentarias\nueva.aspx.designer.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kairosds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kairosds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vistas\departamentos\editar.aspx.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\departamentos\editar.aspx.designer.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\departamentos\listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\departamentos\listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\departamentos\nueva.aspx.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\departamentos\nueva.aspx.designer.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\rutas\editar.aspx.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\rutas\editar.aspx.designer.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\rutas\listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\rutas\listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\rutas\nueva.aspx.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\rutas\nueva.aspx.designer.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\sectores\editar.aspx.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\sectores\editar.aspx.designer.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\sectores\listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\sectores\listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\sectores\nueva.aspx.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\sectores\nueva.aspx.designer.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\usuarios\editar.aspx.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\usuarios\editar.aspx.designer.cs">
+      <DependentUpon>editar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\usuarios\listar.aspx.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\usuarios\listar.aspx.designer.cs">
+      <DependentUpon>listar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistas\usuarios\nueva.aspx.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistas\usuarios\nueva.aspx.designer.cs">
+      <DependentUpon>nueva.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="assets\css\bootstrap.min.css.map" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Views\template\alert.php" />
-    <Content Include="Views\template\footer.php" />
-    <Content Include="Views\template\header.php" />
-    <Content Include="Views\template\nav.php" />
+    <Content Include="adminTemplate.Master" />
+    <Content Include="Kairosds.xsc">
+      <DependentUpon>Kairosds.xsd</DependentUpon>
+    </Content>
+    <None Include="Kairosds.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kairosds.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Kairosds.xss">
+      <DependentUpon>Kairosds.xsd</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -120,8 +316,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

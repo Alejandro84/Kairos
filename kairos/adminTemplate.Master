@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminTemplate.master.cs" Inherits="kairos.adminTemplate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Kairos - Panel de Control</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Activar navegacion<span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <a class="navbar-brand" href="#">Kairos</a>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../../Default.aspx">Main</a></li>
+                    <li><a href="/vistas/departamentos/listar.aspx">Departamentos</a></li>
+                    <li><a href="/vistas/estaciones/listar.aspx">Estaciones</a></li>
+                    <li><a href="/vistas/indumentarias/listar.aspx">Indumentarias</a></li>
+                    <li><a href="/vistas/rutas/listar.aspx">Rutas</a></li>
+                    <li><a href="/vistas/sectores/listar.aspx">Sectores</a></li>
+                    <li><a href="/vistas/usuarios/listar.aspx">Usuarios</a></li>
+                   
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/salir.aspx">Cerrar Sesión</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <div class="container">
+        <hr />
+        <center><small>Kairos APP | Fabián Vásquez - Alejandro Vargas - Andres Otero | INACAP Punta Arenas.</small></center>
+    </div>
+
+</body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>
