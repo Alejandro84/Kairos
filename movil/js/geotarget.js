@@ -17,6 +17,8 @@ function getLocation()
 
 function showPosition(position)
 {
+   console.log('obtener posicion');
+
    latitudActual = position.coords.latitude;
    longitudActual = position.coords.longitude;
    getWeather();
@@ -26,6 +28,8 @@ function showPosition(position)
 
 function distancia( lat1, lon1, lat2, lon2 )
 {
+   console.log('calcular distancia');
+
    var radioTierra = 6371;
    var latitudEnGrados = aGrados( lat2 - lat1);
    var longitudEnGrados = aGrados( lon2 - lon1 );
@@ -50,16 +54,14 @@ if ( ruta )
 {
    getLocation();
    setInterval(function(){
-
       getLocation();
-      console.log('longitudActual: '+longitudActual);
-      console.log('latitudActual: '+latitudActual);
-
    }, tiempoActualizacion );
 }
 
 function getWeather()
 {
+   console.log('obtener clima');
+
    var apiKey = '5841802339b387f11b7868c3e4e28b89';
    var url = 'http://api.openweathermap.org/data/2.5/weather?lat='+latitudActual+'&lon='+longitudActual+'&appid='+apiKey+'&lang=es&units=metric';
 
@@ -76,25 +78,22 @@ function getWeather()
       $('.viento').html('Viento: '+viento+' Km/h');
       mostrarIcono(code);
 
-      console.log(data);
-
    }).fail(function(){
       console.log('no funciono :X');
    });
-
-   console.log(weatherIcons);
 }
 
 function mostrarIcono( codigo )
 {
-
+   console.log('mostrar icono');
    $.get(weatherIcons, function(data){
 
    }).done(function(data){
-
+      var code = codigo;
       var iconos = data;
       var icono = iconos[code].icon;
       var prefix = 'wi wi-';
+      console.log(code);
 
       if (!(code > 699 && code < 800) && !(code > 899 && code < 1000)) {
          icono = 'day-' + icono;
@@ -102,6 +101,7 @@ function mostrarIcono( codigo )
       icon = prefix + icono;
 
       $('.icono-clima').html('<i class="'+icon+'"></i>');
+      
    });
 
 }
