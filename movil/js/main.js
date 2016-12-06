@@ -52,3 +52,19 @@ function finalStateIntro()
    $('.logo').toggleClass('logoFinal');
    $('.prepararViajeContainer').toggleClass('prepararViajeFinal');
 }
+
+function getSectores()
+{
+   var url = 'http://localhost:56160/api/sector';
+   $.get(url, function(data){
+
+   }).done(function(data){
+      $.each(data, function(x,i){
+         console.log(x);
+      });
+   }).fail(function(){
+      alert('no se pueden obtener los sectores');
+   });
+}
+
+getSectores();

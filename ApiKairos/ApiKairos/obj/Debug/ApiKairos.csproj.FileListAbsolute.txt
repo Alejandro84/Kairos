@@ -42,3 +42,47 @@ c:\users\andres otero\documents\visual studio 2013\Projects\ApiKairos\ApiKairos\
 c:\users\andres otero\documents\visual studio 2013\Projects\ApiKairos\ApiKairos\obj\Debug\ApiKairos.csprojResolveAssemblyReference.cache
 c:\users\andres otero\documents\visual studio 2013\Projects\ApiKairos\ApiKairos\obj\Debug\ApiKairos.dll
 c:\users\andres otero\documents\visual studio 2013\Projects\ApiKairos\ApiKairos\obj\Debug\ApiKairos.pdb
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\ApiKairos.dll.config
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\ApiKairos.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\ApiKairos.pdb
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\Antlr3.Runtime.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\EntityFramework.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\Microsoft.Web.Infrastructure.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\Newtonsoft.Json.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Net.Http.Formatting.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Helpers.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.WebHost.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Mvc.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Optimization.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Razor.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Deployment.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Razor.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\WebGrease.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\EntityFramework.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\Newtonsoft.Json.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Net.Http.Formatting.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Helpers.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.WebHost.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Mvc.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Optimization.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Razor.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Deployment.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Razor.xml
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\Antlr3.Runtime.pdb
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Net.Http.Formatting.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Helpers.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Http.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Http.WebHost.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Mvc.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Optimization.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Razor.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.Deployment.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.Razor.resources.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.csprojResolveAssemblyReference.cache
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.dll
+W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.pdb
