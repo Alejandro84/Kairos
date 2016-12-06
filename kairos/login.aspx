@@ -17,8 +17,7 @@
                 <h2>Kairos APP - Panel de Control</h2>    
             </div>
 
-            <% if (failLogin)
-                { %>
+            <% if ( Session["error"] == "fail" ) { %>
             <div class="alert alert-danger">
                 <strong>Error!</strong> nombre de usuario o contraseña incorrectos!
             </div>

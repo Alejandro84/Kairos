@@ -34,7 +34,7 @@ namespace WebApplication1
             SqlConnection con = new SqlConnection(conexion);
             try {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("select * from usuarios where usuario = '"+usuario+"' and password ='" + password+"'", con);
+                SqlCommand cmd = new SqlCommand("select * from usuarios where usuario = '"+usuario+"' and password ='" +password+"'", con);
                 SqlDataReader dataReader = cmd.ExecuteReader();
 
                 if ( dataReader.Read() )
@@ -45,7 +45,7 @@ namespace WebApplication1
                 }
                 else
                 {
-                    this.failLogin = true;
+                    Session["error"] = "fail";
                     Response.Redirect("/login.aspx");
                 }
 
