@@ -86,3 +86,47 @@ W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.
 W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.csprojResolveAssemblyReference.cache
 W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.dll
 W:\Applications\AMPPS\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.pdb
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\ApiKairos.dll.config
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\ApiKairos.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\ApiKairos.pdb
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\Antlr3.Runtime.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\EntityFramework.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\Microsoft.Web.Infrastructure.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\Newtonsoft.Json.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Net.Http.Formatting.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Helpers.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.WebHost.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Mvc.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Optimization.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Razor.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Deployment.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Razor.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\WebGrease.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\EntityFramework.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\Newtonsoft.Json.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Net.Http.Formatting.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Helpers.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Http.WebHost.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Mvc.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Optimization.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.Razor.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Deployment.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\System.Web.WebPages.Razor.xml
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\Antlr3.Runtime.pdb
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Helpers.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Http.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Mvc.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Optimization.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.Razor.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.dll
+C:\Program Files (x86)\Ampps\www\kairos\ApiKairos\ApiKairos\obj\Debug\ApiKairos.pdb

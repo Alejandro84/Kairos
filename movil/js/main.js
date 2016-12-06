@@ -58,9 +58,19 @@ function getSectores()
    var url = 'http://localhost:56160/api/sector';
    $.get(url, function(data){
 
-   }).done(function(data){
+   }).done(function (data) {
+       console.log(data);
       $.each(data, function(x,i){
-         console.log(x);
+
+          var id_sector = i.id_sector;
+          var punto_fin = i.punto_fin;
+          var punto_inicio = i.punto_inicio;
+          var distancia = i.distancia;
+          var cobertura_telefono = i.cobertura_celular;
+
+          $('#sector').append('<option value="'+id_sector+'">'+punto_fin+'</option>');
+
+
       });
    }).fail(function(){
       alert('no se pueden obtener los sectores');
