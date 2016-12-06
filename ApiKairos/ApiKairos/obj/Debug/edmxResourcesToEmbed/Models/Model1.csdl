@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kairosappModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="celulares">
+    <Key>
+      <PropertyRef Name="id_celular" />
+    </Key>
+    <Property Name="id_celular" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="coberturas_celular" Relationship="Self.FK__cobertura__id_ce__5441852A" FromRole="celulares" ToRole="coberturas_celular" />
+  </EntityType>
+  <EntityType Name="coberturas_celular">
+    <Key>
+      <PropertyRef Name="id_cobertura" />
+    </Key>
+    <Property Name="id_cobertura" Type="Int32" Nullable="false" />
+    <Property Name="id_sector" Type="Int32" />
+    <Property Name="id_celular" Type="Int32" />
+    <NavigationProperty Name="celulares" Relationship="Self.FK__cobertura__id_ce__5441852A" FromRole="coberturas_celular" ToRole="celulares" />
+    <NavigationProperty Name="sectores" Relationship="Self.FK__cobertura__id_se__5535A963" FromRole="coberturas_celular" ToRole="sectores" />
+  </EntityType>
+  <EntityType Name="indumentarias">
+    <Key>
+      <PropertyRef Name="id_indumentaria" />
+    </Key>
+    <Property Name="id_indumentaria" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="valor_riesgo" Type="Int32" />
+    <Property Name="cdate" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="estado" Type="Byte" />
+  </EntityType>
+  <EntityType Name="perfiles_riesgos">
+    <Key>
+      <PropertyRef Name="id_perfil" />
+    </Key>
+    <Property Name="id_perfil" Type="Int32" Nullable="false" />
+    <Property Name="id_sector" Type="Int32" />
+    <Property Name="calzada" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="senalizacion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="tipo_iluminacion" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="flujo_vehicular" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="control_policia" Type="Int32" />
+    <NavigationProperty Name="sectores" Relationship="Self.FK__perfiles___id_se__5629CD9C" FromRole="perfiles_riesgos" ToRole="sectores" />
+  </EntityType>
+  <EntityType Name="rutas">
+    <Key>
+      <PropertyRef Name="id_rutas" />
+    </Key>
+    <Property Name="id_rutas" Type="Int32" Nullable="false" />
+    <Property Name="id_sector" Type="Int32" />
+    <Property Name="condicion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="longitud" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="latitud" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="recomendacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="sectores" Relationship="Self.fk_ruta_sector" FromRole="rutas" ToRole="sectores" />
+  </EntityType>
+  <EntityType Name="sectores">
+    <Key>
+      <PropertyRef Name="id_sector" />
+    </Key>
+    <Property Name="id_sector" Type="Int32" Nullable="false" />
+    <Property Name="punto_inicio" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="punto_fin" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="distancia" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="accidentabilidad" Type="Int32" />
+    <NavigationProperty Name="coberturas_celular" Relationship="Self.FK__cobertura__id_se__5535A963" FromRole="sectores" ToRole="coberturas_celular" />
+    <NavigationProperty Name="perfiles_riesgos" Relationship="Self.FK__perfiles___id_se__5629CD9C" FromRole="sectores" ToRole="perfiles_riesgos" />
+    <NavigationProperty Name="rutas" Relationship="Self.fk_ruta_sector" FromRole="sectores" ToRole="rutas" />
+    <NavigationProperty Name="telefonos_emergencias" Relationship="Self.FK__telefonos__id_se__5812160E" FromRole="sectores" ToRole="telefonos_emergencias" />
+    <NavigationProperty Name="velocidades" Relationship="Self.FK__velocidad__id_se__571DF1D5" FromRole="sectores" ToRole="velocidades" />
+  </EntityType>
+  <EntityType Name="telefonos_emergencias">
+    <Key>
+      <PropertyRef Name="id_telefono" />
+    </Key>
+    <Property Name="id_telefono" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="numero" Type="Int32" />
+    <Property Name="id_sector" Type="Int32" />
+    <NavigationProperty Name="sectores" Relationship="Self.FK__telefonos__id_se__5812160E" FromRole="telefonos_emergencias" ToRole="sectores" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cdate" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="estado" Type="Byte" />
+  </EntityType>
+  <EntityType Name="velocidades">
+    <Key>
+      <PropertyRef Name="id_velocidad" />
+    </Key>
+    <Property Name="id_velocidad" Type="Int32" Nullable="false" />
+    <Property Name="id_sector" Type="Int32" />
+    <Property Name="detalle" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="sectores" Relationship="Self.FK__velocidad__id_se__571DF1D5" FromRole="velocidades" ToRole="sectores" />
+  </EntityType>
+  <Association Name="FK__cobertura__id_ce__5441852A">
+    <End Role="celulares" Type="Self.celulares" Multiplicity="0..1" />
+    <End Role="coberturas_celular" Type="Self.coberturas_celular" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="celulares">
+        <PropertyRef Name="id_celular" />
+      </Principal>
+      <Dependent Role="coberturas_celular">
+        <PropertyRef Name="id_celular" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__cobertura__id_se__5535A963">
+    <End Role="sectores" Type="Self.sectores" Multiplicity="0..1" />
+    <End Role="coberturas_celular" Type="Self.coberturas_celular" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sectores">
+        <PropertyRef Name="id_sector" />
+      </Principal>
+      <Dependent Role="coberturas_celular">
+        <PropertyRef Name="id_sector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__perfiles___id_se__5629CD9C">
+    <End Role="sectores" Type="Self.sectores" Multiplicity="0..1" />
+    <End Role="perfiles_riesgos" Type="Self.perfiles_riesgos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sectores">
+        <PropertyRef Name="id_sector" />
+      </Principal>
+      <Dependent Role="perfiles_riesgos">
+        <PropertyRef Name="id_sector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ruta_sector">
+    <End Role="sectores" Type="Self.sectores" Multiplicity="0..1" />
+    <End Role="rutas" Type="Self.rutas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sectores">
+        <PropertyRef Name="id_sector" />
+      </Principal>
+      <Dependent Role="rutas">
+        <PropertyRef Name="id_sector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__telefonos__id_se__5812160E">
+    <End Role="sectores" Type="Self.sectores" Multiplicity="0..1" />
+    <End Role="telefonos_emergencias" Type="Self.telefonos_emergencias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sectores">
+        <PropertyRef Name="id_sector" />
+      </Principal>
+      <Dependent Role="telefonos_emergencias">
+        <PropertyRef Name="id_sector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__velocidad__id_se__571DF1D5">
+    <End Role="sectores" Type="Self.sectores" Multiplicity="0..1" />
+    <End Role="velocidades" Type="Self.velocidades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sectores">
+        <PropertyRef Name="id_sector" />
+      </Principal>
+      <Dependent Role="velocidades">
+        <PropertyRef Name="id_sector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="kairosappEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="celulares" EntityType="Self.celulares" />
+    <EntitySet Name="coberturas_celular" EntityType="Self.coberturas_celular" />
+    <EntitySet Name="indumentarias" EntityType="Self.indumentarias" />
+    <EntitySet Name="perfiles_riesgos" EntityType="Self.perfiles_riesgos" />
+    <EntitySet Name="rutas" EntityType="Self.rutas" />
+    <EntitySet Name="sectores" EntityType="Self.sectores" />
+    <EntitySet Name="telefonos_emergencias" EntityType="Self.telefonos_emergencias" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+    <EntitySet Name="velocidades" EntityType="Self.velocidades" />
+    <AssociationSet Name="FK__cobertura__id_ce__5441852A" Association="Self.FK__cobertura__id_ce__5441852A">
+      <End Role="celulares" EntitySet="celulares" />
+      <End Role="coberturas_celular" EntitySet="coberturas_celular" />
+    </AssociationSet>
+    <AssociationSet Name="FK__cobertura__id_se__5535A963" Association="Self.FK__cobertura__id_se__5535A963">
+      <End Role="sectores" EntitySet="sectores" />
+      <End Role="coberturas_celular" EntitySet="coberturas_celular" />
+    </AssociationSet>
+    <AssociationSet Name="FK__perfiles___id_se__5629CD9C" Association="Self.FK__perfiles___id_se__5629CD9C">
+      <End Role="sectores" EntitySet="sectores" />
+      <End Role="perfiles_riesgos" EntitySet="perfiles_riesgos" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ruta_sector" Association="Self.fk_ruta_sector">
+      <End Role="sectores" EntitySet="sectores" />
+      <End Role="rutas" EntitySet="rutas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__telefonos__id_se__5812160E" Association="Self.FK__telefonos__id_se__5812160E">
+      <End Role="sectores" EntitySet="sectores" />
+      <End Role="telefonos_emergencias" EntitySet="telefonos_emergencias" />
+    </AssociationSet>
+    <AssociationSet Name="FK__velocidad__id_se__571DF1D5" Association="Self.FK__velocidad__id_se__571DF1D5">
+      <End Role="sectores" EntitySet="sectores" />
+      <End Role="velocidades" EntitySet="velocidades" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
