@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="kairosappModelStoreContainer" CdmEntityContainer="kairosappEntities">
+    <EntitySetMapping Name="celulares">
+      <EntityTypeMapping TypeName="kairosappModel.celulares">
+        <MappingFragment StoreEntitySet="celulares">
+          <ScalarProperty Name="id_celular" ColumnName="id_celular" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="coberturas_celular">
+      <EntityTypeMapping TypeName="kairosappModel.coberturas_celular">
+        <MappingFragment StoreEntitySet="coberturas_celular">
+          <ScalarProperty Name="id_cobertura" ColumnName="id_cobertura" />
+          <ScalarProperty Name="id_sector" ColumnName="id_sector" />
+          <ScalarProperty Name="id_celular" ColumnName="id_celular" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="indumentarias">
+      <EntityTypeMapping TypeName="kairosappModel.indumentarias">
+        <MappingFragment StoreEntitySet="indumentarias">
+          <ScalarProperty Name="id_indumentaria" ColumnName="id_indumentaria" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="valor_riesgo" ColumnName="valor_riesgo" />
+          <ScalarProperty Name="cdate" ColumnName="cdate" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="perfiles_riesgos">
+      <EntityTypeMapping TypeName="kairosappModel.perfiles_riesgos">
+        <MappingFragment StoreEntitySet="perfiles_riesgos">
+          <ScalarProperty Name="id_perfil" ColumnName="id_perfil" />
+          <ScalarProperty Name="id_sector" ColumnName="id_sector" />
+          <ScalarProperty Name="calzada" ColumnName="calzada" />
+          <ScalarProperty Name="senalizacion" ColumnName="senalizacion" />
+          <ScalarProperty Name="tipo_iluminacion" ColumnName="tipo_iluminacion" />
+          <ScalarProperty Name="flujo_vehicular" ColumnName="flujo_vehicular" />
+          <ScalarProperty Name="control_policia" ColumnName="control_policia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rutas">
+      <EntityTypeMapping TypeName="kairosappModel.rutas">
+        <MappingFragment StoreEntitySet="rutas">
+          <ScalarProperty Name="id_rutas" ColumnName="id_rutas" />
+          <ScalarProperty Name="id_sector" ColumnName="id_sector" />
+          <ScalarProperty Name="condicion" ColumnName="condicion" />
+          <ScalarProperty Name="longitud" ColumnName="longitud" />
+          <ScalarProperty Name="latitud" ColumnName="latitud" />
+          <ScalarProperty Name="recomendacion" ColumnName="recomendacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sectores">
+      <EntityTypeMapping TypeName="kairosappModel.sectores">
+        <MappingFragment StoreEntitySet="sectores">
+          <ScalarProperty Name="id_sector" ColumnName="id_sector" />
+          <ScalarProperty Name="punto_inicio" ColumnName="punto_inicio" />
+          <ScalarProperty Name="punto_fin" ColumnName="punto_fin" />
+          <ScalarProperty Name="distancia" ColumnName="distancia" />
+          <ScalarProperty Name="accidentabilidad" ColumnName="accidentabilidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="telefonos_emergencias">
+      <EntityTypeMapping TypeName="kairosappModel.telefonos_emergencias">
+        <MappingFragment StoreEntitySet="telefonos_emergencias">
+          <ScalarProperty Name="id_telefono" ColumnName="id_telefono" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="id_sector" ColumnName="id_sector" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="kairosappModel.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="cdate" ColumnName="cdate" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="velocidades">
+      <EntityTypeMapping TypeName="kairosappModel.velocidades">
+        <MappingFragment StoreEntitySet="velocidades">
+          <ScalarProperty Name="id_velocidad" ColumnName="id_velocidad" />
+          <ScalarProperty Name="id_sector" ColumnName="id_sector" />
+          <ScalarProperty Name="detalle" ColumnName="detalle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
