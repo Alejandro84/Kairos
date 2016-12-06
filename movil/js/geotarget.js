@@ -58,6 +58,10 @@ if ( ruta )
    }, tiempoActualizacion );
 }
 
+setInterval(function () {
+    getLocation();
+}, tiempoActualizacion);
+
 function getWeather()
 {
    console.log('obtener clima');

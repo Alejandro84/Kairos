@@ -19,6 +19,5 @@ namespace ApiKairos.Models
         public Nullable<int> id_celular { get; set; }
     
         public virtual celulares celulares { get; set; }
-        public virtual sectores sectores { get; set; }
     }
 }

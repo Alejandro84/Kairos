@@ -6,7 +6,6 @@
     </Key>
     <Property Name="id_celular" Type="Int32" Nullable="false" />
     <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="coberturas_celular" Relationship="Self.FK__cobertura__id_ce__5441852A" FromRole="celulares" ToRole="coberturas_celular" />
   </EntityType>
   <EntityType Name="coberturas_celular">
     <Key>
@@ -16,7 +15,6 @@
     <Property Name="id_sector" Type="Int32" />
     <Property Name="id_celular" Type="Int32" />
     <NavigationProperty Name="celulares" Relationship="Self.FK__cobertura__id_ce__5441852A" FromRole="coberturas_celular" ToRole="celulares" />
-    <NavigationProperty Name="sectores" Relationship="Self.FK__cobertura__id_se__5535A963" FromRole="coberturas_celular" ToRole="sectores" />
   </EntityType>
   <EntityType Name="indumentarias">
     <Key>
@@ -39,7 +37,6 @@
     <Property Name="tipo_iluminacion" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
     <Property Name="flujo_vehicular" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="control_policia" Type="Int32" />
-    <NavigationProperty Name="sectores" Relationship="Self.FK__perfiles___id_se__5629CD9C" FromRole="perfiles_riesgos" ToRole="sectores" />
   </EntityType>
   <EntityType Name="rutas">
     <Key>
@@ -51,7 +48,6 @@
     <Property Name="longitud" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="latitud" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="recomendacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-    <NavigationProperty Name="sectores" Relationship="Self.fk_ruta_sector" FromRole="rutas" ToRole="sectores" />
   </EntityType>
   <EntityType Name="sectores">
     <Key>
