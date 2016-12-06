@@ -1,0 +1,20 @@
+body {
+   padding-top: 60px;
+}
+
+.bloque {
+   background-color: #fff;
+}
+
+.card {
+   background-color: #fff;
+   padding: 13px;
+   box-sizing: border-box;
+}
+.logo-nav {
+   margin-top: -7px;
+}
+.ttp {
+   border-bottom: dashed 1px #000 !important;
+   cursor: help !important;
+}

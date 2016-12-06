@@ -1,0 +1,71 @@
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\kairos.dll.config
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\kairos.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\kairos.pdb
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Helpers.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Mvc.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Razor.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Webpages.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Webpages.Razor.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Razor.xml
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Webpages.xml
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Webpages.Razor.xml
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Helpers.xml
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\System.Web.Mvc.xml
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\obj\Debug\kairos.dll
+C:\Users\Andres Otero\Source\Repos\kairos\kairos\obj\Debug\kairos.pdb
+C:\Users\Andres Otero\Kairos\kairos\bin\kairos.dll.config
+C:\Users\Andres Otero\Kairos\kairos\bin\kairos.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\kairos.pdb
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Helpers.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Mvc.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Razor.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Webpages.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Webpages.Razor.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Razor.xml
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Webpages.xml
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Webpages.Razor.xml
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Helpers.xml
+C:\Users\Andres Otero\Kairos\kairos\bin\System.Web.Mvc.xml
+C:\Users\Andres Otero\Kairos\kairos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Andres Otero\Kairos\kairos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Andres Otero\Kairos\kairos\obj\Debug\kairos.csprojResolveAssemblyReference.cache
+C:\Users\Andres Otero\Kairos\kairos\obj\Debug\kairos.dll
+C:\Users\Andres Otero\Kairos\kairos\obj\Debug\kairos.pdb
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\obj\Debug\kairos.csprojResolveAssemblyReference.cache
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\obj\Debug\kairos.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\kairos.dll.config
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\kairos.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\kairos.pdb
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Helpers.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Mvc.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Razor.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Webpages.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Webpages.Razor.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Razor.xml
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Webpages.xml
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Webpages.Razor.xml
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Helpers.xml
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\System.Web.Mvc.xml
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Alejandro\Desktop\kairos\kairos\kairos\obj\Debug\kairos.pdb
