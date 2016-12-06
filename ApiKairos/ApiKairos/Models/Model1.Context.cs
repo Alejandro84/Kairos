@@ -19,10 +19,9 @@ namespace ApiKairos.Models
             : base("name=kairosappEntities")
         {
         }
-      
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.Configuration.LazyLoadingEnabled = false;
             throw new UnintentionalCodeFirstException();
         }
     

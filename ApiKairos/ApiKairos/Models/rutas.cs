@@ -20,7 +20,5 @@ namespace ApiKairos.Models
         public string longitud { get; set; }
         public string latitud { get; set; }
         public string recomendacion { get; set; }
-    
-        public virtual sectores sectores { get; set; }
     }
 }

@@ -14,14 +14,7 @@ namespace ApiKairos.Models
     
     public partial class celulares
     {
-        public celulares()
-        {
-            this.coberturas_celular = new HashSet<coberturas_celular>();
-        }
-    
         public int id_celular { get; set; }
         public string nombre { get; set; }
-    
-        public virtual ICollection<coberturas_celular> coberturas_celular { get; set; }
     }
 }

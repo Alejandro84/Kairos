@@ -21,7 +21,5 @@ namespace ApiKairos.Models
         public string tipo_iluminacion { get; set; }
         public string flujo_vehicular { get; set; }
         public Nullable<int> control_policia { get; set; }
-    
-        public virtual sectores sectores { get; set; }
     }
 }
