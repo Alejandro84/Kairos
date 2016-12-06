@@ -13,5 +13,10 @@ namespace kairos.sectores
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/vistas/sectores/nueva.aspx");
+        }
     }
 }

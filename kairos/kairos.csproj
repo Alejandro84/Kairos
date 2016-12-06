@@ -99,6 +99,17 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\llamada.js" />
     <Content Include="assets\js\tether.min.js" />
+    <Content Include="Kairosds.xsc">
+      <DependentUpon>Kairosds.xsd</DependentUpon>
+    </Content>
+    <None Include="Kairosds.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kairosds.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Kairosds.xss">
+      <DependentUpon>Kairosds.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="vistas\rutas\editar.aspx" />
     <Content Include="vistas\rutas\listar.aspx" />
@@ -137,6 +148,11 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kairosds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kairosds.xsd</DependentUpon>
     </Compile>
     <Compile Include="salir.aspx.cs">
       <DependentUpon>salir.aspx</DependentUpon>
@@ -186,11 +202,6 @@
     </Compile>
     <Compile Include="vistas\indumentarias\nueva.aspx.designer.cs">
       <DependentUpon>nueva.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Kairosds.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Kairosds.xsd</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -296,17 +307,6 @@
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="adminTemplate.Master" />
-    <Content Include="Kairosds.xsc">
-      <DependentUpon>Kairosds.xsd</DependentUpon>
-    </Content>
-    <None Include="Kairosds.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Kairosds.Designer.cs</LastGenOutput>
-    </None>
-    <Content Include="Kairosds.xss">
-      <DependentUpon>Kairosds.xsd</DependentUpon>
-    </Content>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

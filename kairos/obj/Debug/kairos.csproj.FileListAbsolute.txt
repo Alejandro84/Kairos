@@ -93,3 +93,27 @@ W:\Applications\AMPPS\www\kairos\kairos\bin\es\System.Web.Mvc.resources.dll
 W:\Applications\AMPPS\www\kairos\kairos\obj\Debug\kairos.csprojResolveAssemblyReference.cache
 W:\Applications\AMPPS\www\kairos\kairos\obj\Debug\kairos.dll
 W:\Applications\AMPPS\www\kairos\kairos\obj\Debug\kairos.pdb
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\obj\Debug\kairos.csprojResolveAssemblyReference.cache
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\obj\Debug\kairos.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\obj\Debug\kairos.pdb
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\kairos.dll.config
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\kairos.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\kairos.pdb
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Helpers.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Mvc.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Razor.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Webpages.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Webpages.Razor.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Razor.xml
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Webpages.xml
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Webpages.Razor.xml
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Helpers.xml
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\System.Web.Mvc.xml
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Andres Otero\Documents\WEbeointenso\kairos\kairos\bin\es\System.Web.Mvc.resources.dll
